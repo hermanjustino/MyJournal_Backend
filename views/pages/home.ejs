@@ -31,16 +31,30 @@
         
         }
 
+    
+  // Use of Date.now() method
+  var d = Date(Date.now());
+  
+  // Converting the number of millisecond 
+  // in date string
+  a = d.toString()
+  
+  // Printing the current date                    
+  console.log("The current date is: " + a) 
+  
+
+document.getElementById("demo").innerHTML = a;
+
     </script>
     <body style="background-color: lightgray;">
         This will show a list of our posts
 
         <form class="post-container" action="/post" method="POST">
 
-            <div>Create Post</div>
-            <input name="title" type="text" placeholder="Post Title"><br>
+            <div>Create Post</div><br>
+            <input name="title" type="text" placeholder="Post Title"><br><br>
 
-            <input name="postBody" type="text" placeholder="Post Body"><br>
+            <textarea name="postBody" type="text" placeholder="Post Body"> </textarea><br>
         
             <button type="submit">Submit</button>
 
@@ -53,7 +67,11 @@
             <% allPosts.forEach(p => { %>
 
                 <div class="post-container">
-                <div><%= p.title %></div>
+                <div>
+                    
+                    <h2><%= p.title %></h2>
+                
+                </div>
             <div><%= p.body %></div>
             <button id="<%= p.id %>" onclick="handleDeletePost(event)">Delete</button>
 

@@ -9,7 +9,7 @@
  * https://sailsjs.com/config/session
  */
 
-module.exports.session = {
+module.exports.sessions = {
 
   /***************************************************************************
   *                                                                          *
@@ -18,8 +18,11 @@ module.exports.session = {
   * of your users, forcing them to log in again.                             *
   *                                                                          *
   ***************************************************************************/
-  secret: 'b4573d8ed46419c67c397b3f3bcfdff5',
+  secret: '80fd294438003ec79a0505d8525c596a',
 
+  adapter: 'connect-mongo',
+  url: 'mongodb+srv://admin:herman@cluster0.elazr.mongodb.net/journal?retryWrites=true&w=majority',
+  collection: 'sessions',
 
   /***************************************************************************
   *                                                                          *
