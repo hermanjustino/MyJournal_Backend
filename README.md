@@ -11,5 +11,10 @@ a [Sails v1](https://sailsjs.com) application
 + [Community support options](https://sailsjs.com/support)
 + [Professional / enterprise options](https://sailsjs.com/enterprise)
 
+#Demo
+
+
+![example-video](https://github.com/hermanjustino/MyJournal_Backend/blob/main/video.gif)
+
 
 
