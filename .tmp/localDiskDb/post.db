@@ -1,3 +1,11 @@
 {"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
 {"title":"Wednesday, May 13th, 2021","body":" I think today is going to be a good day. The sun is shining, the birds are out, and the vaccines are coming. This is the start of a beautiful summer.","user":2,"createdAt":1620922601998,"updatedAt":1620922601998,"id":1,"_id":1}
 {"title":"Wednesday, 2pm","body":"Pick up eggs at the grocery store","user":2,"createdAt":1620922680603,"updatedAt":1620922680603,"id":2,"_id":2}
+{"title":"Thursday To Do","body":"- Grab milk\r\n- go for a walk\r\n- Finish Homework\r\n","user":2,"createdAt":1620923058866,"updatedAt":1620923058866,"id":3,"_id":3}
+{"title":"LinkedIn","body":"Hopefully this will work on the first try ","user":2,"createdAt":1620923880024,"updatedAt":1620923880024,"id":4,"_id":4}
+{"$$deleted":true,"_id":4}
+{"title":"LinkedIn","body":"Let's hope this works","user":2,"createdAt":1620924042442,"updatedAt":1620924042442,"id":5,"_id":5}
+{"title":"To be deleted","body":"From the server","user":2,"createdAt":1620924060871,"updatedAt":1620924060871,"id":6,"_id":6}
+{"$$deleted":true,"_id":6}
+{"title":"Github","body":"Check the link","user":2,"createdAt":1620924982288,"updatedAt":1620924982288,"id":7,"_id":7}
+{"$$deleted":true,"_id":5}
